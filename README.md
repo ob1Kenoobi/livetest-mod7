@@ -34,11 +34,9 @@ To run this Flutter app on your local machine, follow these steps:
 ```bash
    flutter run
 ```
-Screenshots
+## Screenshots
 Screenshot 1
+![Screenshot_1695577209](https://github.com/ob1Kenoobi/livetest-mod7/assets/140194680/b3dd5e6d-b791-42e0-9c78-d6b5a8802a2a)
+
 Screenshot 2
-
-Dependencies
-This app uses the following Flutter packages:
-
-flutter/material: Material Design widgets for the user interface.
+![Screenshot_1695577215](https://github.com/ob1Kenoobi/livetest-mod7/assets/140194680/29763023-8c3f-4e8c-a544-6b0b8d24dcd5)
