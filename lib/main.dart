@@ -69,25 +69,39 @@ class _CounterScreenState extends State<CounterScreen> {
           children: <Widget>[
             Text(
               "Count:",
-              style: TextStyle(fontSize: 24),
+              style: TextStyle(fontSize: 24, color: Colors.purpleAccent),
             ),
             Text(
               "$count",
-              style: TextStyle(fontSize: 48),
+              style: TextStyle(
+                  fontSize: 48,
+                  fontWeight: FontWeight.w600,
+                  color: Colors.redAccent),
             ),
             SizedBox(height: 20), // Add spacing here
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                SizedBox(width: 20), // Add spacing here
-                ElevatedButton(
-                  onPressed: _incrementCount,
-                  child: Text("+"),
+                Container(
+                  width: 100,
+                  child: ElevatedButton(
+                    onPressed: _incrementCount,
+                    child: Text(
+                      "+",
+                      style: TextStyle(fontSize: 32),
+                    ),
+                  ),
                 ),
                 SizedBox(width: 20),
-                ElevatedButton(
-                  onPressed: _decrementCount,
-                  child: Text("-"),
+                Container(
+                  width: 100,
+                  child: ElevatedButton(
+                    onPressed: _decrementCount,
+                    child: Text(
+                      "-",
+                      style: TextStyle(fontSize: 32),
+                    ),
+                  ),
                 ),
               ],
             ),
